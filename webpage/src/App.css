@@ -1,0 +1,10 @@
+body{
+    background-color: lightpink;
+}
+.abc{
+    color: blue;
+    background-color: black;
+    height: 40px;
+    width: 190px;
+    margin: 30px 30px;
+}
