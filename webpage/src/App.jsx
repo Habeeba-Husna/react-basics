@@ -9,7 +9,7 @@ import CounterRef from './components/CounterRef';
 import ToDoList from './components/ToDoList';
 import Timer from './components/Timer'
 // import CountReducer from './components/CountReducer';
-// import Pagination from './components/Pagination';
+import Pagination from './components/Pagination';
 import Posts from './components/Posts';
 // import React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -47,7 +47,7 @@ function App() {
      <CounterRef/>
      <ToDoList/>
      <Timer/>
-     {/* <Pagination/> */}
+     <Pagination/>
     </>
   )
 }
