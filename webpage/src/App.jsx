@@ -8,7 +8,7 @@ import Clock from './components/Clock';
 import CounterRef from './components/CounterRef';
 import ToDoList from './components/ToDoList';
 import Timer from './components/Timer'
-// import CountReducer from './components/CountReducer';
+import CountReducer from './components/CountReducer';
 import Pagination from './components/Pagination';
 import Posts from './components/Posts';
 // import React from 'react';
@@ -32,7 +32,7 @@ function App() {
             </Router>
         </DataProvider> */}
       <Posts />
-    {/* <CountReducer/> */}
+    <CountReducer/>
      <Counter />
      <br></br>
      <Text/> 
