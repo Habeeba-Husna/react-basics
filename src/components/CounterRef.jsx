@@ -14,4 +14,5 @@ import { useRef } from 'react';
     </button>
   );
 }
+
 export default CounterRef;
